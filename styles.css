@@ -1,9 +1,9 @@
-body{
-    background-color:#7f1734;
-    font-family: Helvetica;
-    padding: 0.8rem;
-    line-height: 1.4;
-    font-size: 14px;
+  body{
+      background-color:#7f1734;
+      font-family: Helvetica;
+      padding: 8rem;
+      line-height: 1.4;
+      font-size: 16px;
     }
     
     section{
@@ -22,12 +22,13 @@ body{
       display: block;
       max-width: 100%;
       height: auto;
-      text-align: center;
       padding-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
     
     #img-caption{
-      background-color: #C8C8C8;
       text-align: center;
     }
     
@@ -38,6 +39,8 @@ body{
     
     #link{
       margin-left: 10px;
+      text-align: center;
+      
     }
     
     #tribute-timeline{
@@ -46,10 +49,25 @@ body{
     
     li{
       margin: 14px;
+      
+    }
+
+    ul{
+      max-width: 550px;
+      margin: 0 auto 50px auto;
     }
     
     blockquote{
       text-align: left;
       font-style: italic;
       color:#333;
+    }
+    
+    h3{
+      text-align: center;
+    }
+
+    #tribute-info{
+      max-width: 550px;
+      margin: 0 auto 50px auto;
     }
